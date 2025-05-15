@@ -1,5 +1,6 @@
 const textArea = document.querySelector(".text-area");
 const mensaje = document.querySelector(".mensaje");
+const btnCopiar = document.querySelector(".btn-copiar");
 
 const listAbecedario =["Ĉ","\"","#","$","%","&","'","(",")","*","+",",","-",".","/","0","1","2","3","4","5","6","7","8","9",":",";","<","=",">","?","A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R","S",
 "T","U","V","W","X","Y","Z","[","\\","]","^","_","´","a","b","c","d","e","f","©","h","i","j","k","l","m",
@@ -81,8 +82,13 @@ function btnEncriptar(){
     mensaje.style.backgroundImage = "none";
 }
 
-function btnDesncriptar(){
+function btnDesencriptar(){
     const textoEncriptado = (conNumeroFrase(deCodiFrases(conFraseNumero(textArea.value))));
     mensaje.value = textoEncriptado;
     textArea.value = "";
+}
+function btnCopiarTexto(){
+    mensaje.select();
+    document.execCommand("copy");
+    alert("Texto copiado al portapapeles");
 }
