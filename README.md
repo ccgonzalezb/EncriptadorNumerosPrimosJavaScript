@@ -52,30 +52,10 @@ Este proyecto es una sencilla aplicación web que permite encriptar y desencript
 
 ---
 
-## Mejoras futuras
-
-- Añadir validación para caracteres no permitidos.
-- Soportar mayúsculas y caracteres acentuados correctamente.
-- Mejorar la interfaz con estilos más atractivos y responsivos.
-- Incorporar pruebas unitarias para la lógica de encriptación.
-
----
 
 ## Autor
 
-Tu nombre o alias
-
----
-
-## Licencia
-
-Indica la licencia del proyecto si aplica (por ejemplo MIT).
-
----
-
-## Captura de pantalla
-
-*(Aquí puedes incluir una imagen o GIF mostrando la aplicación en acción)*
+Cristian Camilo González Blanco
 
 ---
 
